@@ -1,0 +1,226 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.0.5",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "11758__earring_v1_l3",
+            "rotation" : [
+                0.016135163605213165,
+                -0.2409159541130066,
+                0.12775735557079315,
+                0.9619652628898621
+            ],
+            "translation" : [
+                0.06561312079429626,
+                -0.12469078600406647,
+                0.02063632197678089
+            ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "11758__earring_v1_l3.001",
+            "rotation" : [
+                0.016135163605213165,
+                -0.2409159541130066,
+                0.12775735557079315,
+                0.9619652628898621
+            ],
+            "translation" : [
+                0.06561312079429626,
+                -0.12469078600406647,
+                -0.5116121768951416
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "earring_gold",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5647000074386597,
+                    0.4666999876499176,
+                    0.2587999999523163,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.7891814708709717
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "earring_gold.001",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5647000074386597,
+                    0.4666999876499176,
+                    0.2587999999523163,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.7891814708709717
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "11758__earring_v1_l3",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "11758__earring_v1_l3.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1166,
+            "max" : [
+                0.3513646125793457,
+                0.7691526412963867,
+                0.0473027341067791
+            ],
+            "min" : [
+                -0.3812299966812134,
+                0.001975385006517172,
+                -0.048091646283864975
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1166,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1166,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 1794,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 5625,
+            "max" : [
+                0.35089561343193054,
+                0.7688830494880676,
+                0.04727347940206528
+            ],
+            "min" : [
+                -0.38021960854530334,
+                -0.0003463083994574845,
+                -0.047107961028814316
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 5625,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 5625,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 17970,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 13992,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13992,
+            "byteOffset" : 13992
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9328,
+            "byteOffset" : 27984
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 3588,
+            "byteOffset" : 37312
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 67500,
+            "byteOffset" : 40900
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 67500,
+            "byteOffset" : 108400
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 45000,
+            "byteOffset" : 175900
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 35940,
+            "byteOffset" : 220900
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 256840,
+            "uri" : "earring1.bin"
+        }
+    ]
+}
